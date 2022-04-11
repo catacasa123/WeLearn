@@ -437,9 +437,6 @@ h2{
      margin-bottom: 100px; 
     max-width: 100%;*/
     /*display: inline;*/
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 500px 500px;
     text-align: center;
     position: static;
     width: 800px; 
