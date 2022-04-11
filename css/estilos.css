@@ -404,6 +404,10 @@ body{
     background-color: #04BF55;
     text-decoration: none;
     padding: 15px 30px;
+    transition: all;
+}
+.btn:hover{
+    background-color: #056CF2;
 }
 .pintura__btn{
     color: white;
