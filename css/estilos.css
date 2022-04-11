@@ -208,7 +208,7 @@ body{
       
 }
 .plataforma {
-    margin: 220px 40px;
+    margin: 220px 40px 70px 220px;
     grid-area: plataforma;
         
 }
@@ -460,7 +460,13 @@ h2{
     background-color: #04BF55;
     text-decoration: none;
     padding: 15px 30px;
-}*/
+    transition: height (2s);
+}
+.cursos__nombres li:hover{
+    background-color: #056CF2;/*que cambie color cuando paso por arriba*/
+    height: 20px;
+    transform: scale(1.1);
+    } 
 .cursos__titulo{
     font-size: 2rem;
     color: #056CF2;   
