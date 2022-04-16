@@ -172,6 +172,7 @@ body{
     /*height: 500px;*/
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .grabaciones{
     grid-area: grabaciones;
@@ -179,6 +180,7 @@ body{
     /*height: 500px;*/
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     margin: 60px 0px 60px 60px;
 }
 .mundo{
@@ -187,6 +189,7 @@ body{
     height: 500px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     margin: 60px 0px 60px 60px;
 }
 .barra{
@@ -458,11 +461,13 @@ h2{
 }
 .beneficios{
     display: flex;
+    background-color: #99C8F2;
     flex-direction: row;
     justify-content: space-evenly;
     /*flex-wrap: wrap;*/
     align-content:space-between;
     margin: 20px 30px 10px 30px;
+    width: 100%;
 }
 .tresBeneficios{
     /*margin: 0px 130px;
@@ -470,8 +475,7 @@ h2{
     max-width: 100%;*/
     /*display: inline;*/
     text-align: center;
-    position: static;
-    width: 800px; 
+    position: static; 
     height: 800px;
     justify-items: start;
     justify-content: start;
