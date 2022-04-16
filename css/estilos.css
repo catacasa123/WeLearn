@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (min-width:768px){
+@media screen and (min-width:320px){
     body{
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
@@ -39,6 +39,13 @@
     body{
         grid-template-columns: repeat(3, 1fr);
         text-align: start;
+        body{
+            grid-template-columns: repeat(1, 1fr);
+            text-align: center;
+            align-items: center;
+        }
+        
+        
     }
 
 }
@@ -139,6 +146,7 @@ body{
     grid-area: imagenPlataforma;
     display: flex;
     flex-wrap: wrap;
+    margin: 90px 0px 90px 0px;
 }
 .beca{
     /*margin: 200px 130px;
@@ -146,14 +154,14 @@ body{
     grid-area:beca;
     margin: 60px 0px 60px 60px;
     width: 300px;
-    height: 500px;
+    /*height: 500px;*/
     display: flex;
     flex-wrap: wrap;
 }
 .grabaciones{
     grid-area: grabaciones;
     width: 300px;
-    height: 500px;
+    /*height: 500px;*/
     display: flex;
     flex-wrap: wrap;
     margin: 60px 0px 60px 60px;
@@ -208,7 +216,7 @@ body{
       
 }
 .plataforma {
-    margin: 220px 40px 70px 220px;
+    margin: 220px 40px 70px 160px;
     grid-area: plataforma;
         
 }
@@ -432,6 +440,28 @@ h2{
     margin: 200px 130px;
     max-width: 30%;
 }
+.beneficios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*flex-wrap: wrap;*/
+    align-content:space-between;
+    margin: 20px 30px 10px 30px;
+}
+.tresBeneficios{
+    /*margin: 0px 130px;
+     margin-bottom: 100px; 
+    max-width: 100%;*/
+    /*display: inline;*/
+    text-align: center;
+    position: static;
+    width: 800px; 
+    height: 1400px;
+    justify-items: start;
+    justify-content: start;
+    align-items: start;
+    text-align: center;
+}
 .cursos{
     /*margin: 0px 130px;
      margin-bottom: 100px; 
@@ -446,11 +476,10 @@ h2{
     align-items: start;
     text-align: center;
 }
-
 .cursos__nombres{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     /*flex-wrap: wrap;*/
     align-content:space-between;
     margin: 20px 30px 10px 30px;
@@ -465,6 +494,7 @@ h2{
 }
 .cursos__nombres li:hover{
     background-color: #056CF2;/*que cambie color cuando paso por arriba*/
+    color: white;
     height: 20px;
     transform: scale(1.1);
     } 
