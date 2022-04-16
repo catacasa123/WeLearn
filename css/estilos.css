@@ -16,6 +16,7 @@
     .beneficios{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
     .imagenPlataforma{
         width: 800px;
@@ -58,7 +59,11 @@
             display: flex;
             flex-wrap: wrap;
         }
-        
+        .beneficios{
+            display: flex;
+            flex-direction: column;
+            background-color: #F24B4B;
+        }
     }
 
 }
