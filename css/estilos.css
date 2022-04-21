@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (min-width:320px){
+@media screen and (min-width:320px) and (max-width: 576px){
     body{
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
         align-items: center;
     }
+   
     .plataforma{
         margin: 220px 40px 40px 160px;
         display: flex;
@@ -224,7 +225,7 @@ body{
 }
 .barra__logo{
     width: 180px;
-    margin: 0px;
+    margin: 0px 0px 10px 0px;
     /*
     padding: 40px; 
     */
@@ -233,7 +234,7 @@ body{
     text-decoration: none;
     color: aliceblue;
     font-size: 1rem;
-    margin: 20px;
+    margin: 2px;
     padding: 30px 40px; 
     display: block; 
       
@@ -426,7 +427,7 @@ body{
 }
 .plataforma__parrafo{
     font-size: 1.2rem;
-    margin-bottom: 20px;
+   
     padding-bottom: 30px;
     width: 700px;
 }
@@ -437,6 +438,7 @@ body{
     text-decoration: none;
     padding: 15px 30px;
     transition: all;
+    margin: 0px 0px 50px 0px;
 }
 .btn:hover{
     background-color: #056CF2;
@@ -502,8 +504,9 @@ h2{
     text-align: center;
 }
 .cursos__nombres{
-    display: flex;
-    flex-direction: row;
+    
+    position: initial;
+    
     justify-content: space-evenly;
     /*flex-wrap: wrap;*/
     align-content:space-between;
